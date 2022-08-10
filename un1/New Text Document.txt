@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>winwin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html"><image src="un1/logo.jpg"></a>
+            <div class="nav-link"id="navlinks">
+                <i class="fa fa-times"></i>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blogs</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="">Rating</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+<div class="text-box">
+<h1> win-win university</h1>
+<p>
+    win-win University is one of three University of digital System schools.  Win-Win is an initiative sponsored by the Education Trust, a national education policy organization, and the National Association of System Heads. The aim of the project is to identify students who stopped attending classes for personal reasons but otherwise met university criteria for an associate degree.  
+</p>
+<a class="btn1" href="">visit now</a>
+</div>
+
+    </section>
+    <!--------------course ------------------------>
+    <section class="Course">
+        <h1>Course we are offering </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum, facilis amet reiciendis soluta nemo atque similique tempore beatae officia corrupti, delectus cumque? Expedita, architecto voluptatum necessitatibus cum deserunt dolore.</p>
+<div class="row">
+    <div class="course-col">
+        <h3>intermediate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quae dicta numquam reiciendis ipsa neque recusandae aliquam at, nulla repudiandae cumque odio, quod repellat provident sit eligendi nesciunt omnis magnam!</p>
+
+    </div>
+<div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quae dicta numquam reiciendis ipsa neque recusandae aliquam at, nulla repudiandae cumque odio, quod repellat provident sit eligendi nesciunt omnis magnam!</p>
+        
+    </div>
+    <div class="course-col">
+        <h3>post Gradution</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quae dicta numquam reiciendis ipsa neque recusandae aliquam at, nulla repudiandae cumque odio, quod repellat provident sit eligendi nesciunt omnis magnam!</p>
+        
+    </div>
+</div>
+    </section>
+
+
+     <!--------- campus---------->
+
+
+    <section class="campus">
+        <h1> Our Branches</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="un1/london.png">
+            <div class="layer">
+                <h3>london</h3>
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+
+   <!---------------javascript for toggle menu------------------->
+    <script>
+        var navlinks= document.getElementById("navlinks");
+        function ShowMenu(){
+            navlink.styale.right="0";
+        } 
+        {
+            function ShowMenu()
+            navlink.styale.right="-200px";
+            }
+        
+
+    </script>
+</body>
+</html>
